@@ -1263,7 +1263,9 @@ SINT32 main(SINT32 argc, SCHAR* argv[]) {
         //Chunk.BlockData[rand() % CHUNK_SIZE][rand() % CHUNK_SIZE][rand() % CHUNK_SIZE].TypeId = 1;
         //Chunk2.BlockData[rand() % CHUNK_SIZE][rand() % CHUNK_SIZE][rand() % CHUNK_SIZE].TypeId = 0;
 
-        worldLoadChunksPerCoords(&World, Player.pCurrentChunk->position.x, Player.pCurrentChunk->position.y, Player.pCurrentChunk->position.z, Client.RenderDistance.x, Client.RenderDistance.y, Client.RenderDistance.z);
+/////////
+/////////worldLoadChunksPerCoords(&World, Player.pCurrentChunk->position.x, Player.pCurrentChunk->position.y, Player.pCurrentChunk->position.z, Client.RenderDistance.x, Client.RenderDistance.y, Client.RenderDistance.z);
+/////////
 
         worldLoadSomeChunks(&World, Player.pCurrentChunk->position.x, Player.pCurrentChunk->position.y, Player.pCurrentChunk->position.z);
 
