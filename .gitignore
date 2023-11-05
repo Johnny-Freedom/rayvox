@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# more
+*.pdb
+.vs
+ipch
+rayvox/run/bin
+*.sdf
+*.suo
