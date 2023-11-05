@@ -35,5 +35,8 @@
 *.pdb
 .vs
 ipch
+rayvox/run/bin
+rayvox/__git
+rayvox/x64
 *.sdf
 *.suo
